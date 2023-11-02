@@ -1,7 +1,8 @@
-package com.example.a7homework1
+package com.example.a7homework1.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.a7homework1.VpAdapter
 import com.example.a7homework1.core.network.RemoteDataSource
 import com.example.a7homework1.core.network.RetrofitClient
 import com.example.a7homework1.databinding.ActivityMainBinding

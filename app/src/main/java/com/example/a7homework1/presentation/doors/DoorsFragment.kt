@@ -6,15 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ItemTouchHelper
-import com.example.a7homework1.MainActivity
+import com.example.a7homework1.presentation.MainActivity
 import com.example.a7homework1.R
-import com.example.a7homework1.data.model.CameraModel
 import com.example.a7homework1.databinding.FragmentDoorsBinding
-import com.example.a7homework1.data.model.DoorsModel
-import com.example.a7homework1.presentation.camera.CameraViewModel
+import com.example.a7homework1.data.remote.models.DoorsModel
 import com.example.a7homework1.utils.SwipeController
 
 

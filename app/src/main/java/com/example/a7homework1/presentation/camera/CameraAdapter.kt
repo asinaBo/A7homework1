@@ -5,8 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.a7homework1.databinding.ItemCameraBinding
-import com.example.a7homework1.data.model.CameraModel
-import com.example.a7homework1.data.model.DoorsModel
+import com.example.a7homework1.data.remote.models.CameraModel
 
 class CameraAdapter : RecyclerView.Adapter<CameraAdapter.ViewHolder>() {
 

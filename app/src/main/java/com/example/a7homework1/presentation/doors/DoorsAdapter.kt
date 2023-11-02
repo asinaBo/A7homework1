@@ -3,11 +3,10 @@ package com.example.a7homework1.presentation.doors
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.a7homework1.databinding.ItemDoorTitleBinding
-import com.example.a7homework1.data.model.DoorsModel
+import com.example.a7homework1.data.remote.models.DoorsModel
 
 class DoorsAdapter : RecyclerView.Adapter<DoorsAdapter.ViewHolder>() {
 

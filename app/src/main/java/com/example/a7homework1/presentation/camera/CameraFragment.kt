@@ -5,14 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.recyclerview.widget.DividerItemDecoration
-import com.example.a7homework1.MainActivity
+import com.example.a7homework1.presentation.MainActivity
 
-import com.example.a7homework1.R
 import com.example.a7homework1.core.base.BaseFragment
 import com.example.a7homework1.databinding.FragmentCameraBinding
-import com.example.a7homework1.data.model.CameraModel
-
+import com.example.a7homework1.data.remote.models.CameraModel
 
 class CameraFragment : BaseFragment<FragmentCameraBinding>() {
 
@@ -63,9 +60,7 @@ class CameraFragment : BaseFragment<FragmentCameraBinding>() {
     private fun initRecyclerView(cameras: List<CameraModel.Data.Camera>) {
         adapter.addData(cameraList = cameras)
         binding.rcViewCam.adapter = adapter
-
     }
-
 
     companion object {
         fun newInstance() = CameraFragment()

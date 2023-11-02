@@ -1,4 +1,4 @@
-package com.example.a7homework1.data.model
+package com.example.a7homework1.data.remote.models
 
 data class DoorsModel(
     val `data`: List<Data>,
